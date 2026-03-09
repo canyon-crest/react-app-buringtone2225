@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "htps://canyon-crest/react-app-buringtone2225",
+  "homepage": "https://canyon-crest/react-app-buringtone2225",
 
   "scripts": {
     "dev": "vite",
