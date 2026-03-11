@@ -5,14 +5,13 @@ import App from './App.jsx'
 import Nav from './Nav.jsx'
 import Card from './Card.jsx'
 import Footer from './Footer.jsx'
+import Facts from './Facts.jsx'
+import Shop from './Shop.jsx'
 
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Nav />
-    <Card name='Fast-Setting Concrete' description='A type of concrete' />
-    <Footer />
     <App />
   </StrictMode>
 )

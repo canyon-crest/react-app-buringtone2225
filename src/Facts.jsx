@@ -6,14 +6,12 @@ import Nav from './Nav.jsx'
 import FactsCard from './FactsCard.jsx'
 import Footer from './Footer.jsx'
 
-
-createRoot(document.getElementById('root')).render(
-    <StrictMode>
-      <Nav />
-      <h1>Information About Sharks</h1>
-      <FactsCard name='Species'/>
-      <Footer />
-      <App />
-    </StrictMode>
-  )
+function Facts() {
+  return (
+    <>
+      <FactsCard />
+    </>
+)
+}
   
+  export default Facts

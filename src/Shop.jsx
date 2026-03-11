@@ -8,11 +8,16 @@ import Footer from './Footer.jsx'
 
 
 
-createRoot(document.getElementById('root')).render(
-  <StrictMode>
-    <Nav />
-    <ShopCard name='Shark Plush' description='A soft shark companion! $100' />
-    <Footer />
-    <App />
-  </StrictMode>
-)
+function Shop() {
+  return(
+    <>
+    <h1>Store</h1>
+      <StrictMode>
+        <ShopCard name='Shark Plush' description='A soft shark companion! $100' />
+      </StrictMode>
+    </>
+  )
+}
+
+
+export default Shop

@@ -12,4 +12,4 @@ function ShopCard({name, description}){
             </div>
     )
 }
-export default Card
+export default ShopCard

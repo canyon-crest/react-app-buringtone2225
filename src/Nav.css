@@ -1,4 +1,4 @@
-ul {
+div ul {
     display: flex;
     color:black;
     font-family: 'Courier New', Courier, monospace;
@@ -9,14 +9,14 @@ ul {
     padding: 0rem 10rem;
 }
 
-ul li {
+div ul li {
     display: flex;
     margin: 1rem;
     flex-wrap: wrap;
     color:antiquewhite;
 }
 
-ul li:hover {
+div ul li:hover {
     background-color:rgb(140, 173, 234);
     border-radius: 4rem;
 }
