@@ -3,7 +3,7 @@ import './Nav.css'
 
 function Nav({ setPage }){
     return (
-        <div>
+        <div className="navBar">
             <ul>
                 <li onClick={() => setPage("home")}>Home</li>
                 <li onClick={() => setPage("facts")}>Facts</li>

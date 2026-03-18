@@ -1,0 +1,9 @@
+.speciesList {
+    list-style-type: none;
+}
+
+.enterButton {
+    padding: 0.25rem;
+    margin: 0rem 0rem 0rem 1rem;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}

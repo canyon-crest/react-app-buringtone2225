@@ -1,4 +1,4 @@
-div ul {
+.navBar ul {
     display: flex;
     color:black;
     font-family: 'Courier New', Courier, monospace;
@@ -6,17 +6,18 @@ div ul {
     list-style-type: none;
     align-items: center;
     justify-content: center;
-    padding: 0rem 10rem;
+    padding: 0rem 15rem;
+    position:top;
 }
 
-div ul li {
+.navBar ul li {
     display: flex;
     margin: 1rem;
     flex-wrap: wrap;
     color:antiquewhite;
 }
 
-div ul li:hover {
+.navBar ul li:hover {
     background-color:rgb(140, 173, 234);
     border-radius: 4rem;
 }

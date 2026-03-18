@@ -1,0 +1,10 @@
+.homeList ul {
+    list-style-type: '-';
+    color:black;
+    margin: 0.1rem;
+}
+
+.homeList ul li {
+    padding: 1rem;
+    margin: 0.4rem 14rem;
+}

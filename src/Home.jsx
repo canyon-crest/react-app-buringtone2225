@@ -1,3 +1,4 @@
+import './Home.css'
 
 function Home() {
   return (
@@ -7,10 +8,12 @@ function Home() {
             We get our facts vetted by experts around the world.
             Here are some of our features:
         </p>
-        <ul>
-            <li>A page dedicated to shark species and biology</li>
-            <li>A shop featuring cool shark merch</li>
-        </ul>
+        <div className="homeList">
+            <ul>
+                <li>A page dedicated to shark species and biology</li>
+                <li>A shop featuring cool shark merch</li>
+            </ul>
+        </div>
     </>
 )
 }
