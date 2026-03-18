@@ -13,6 +13,7 @@ import './Facts.css'
 function Facts() {
   const [inputText, setInputText] = useState("")
   const [items, setItems] = useState([])
+  const [apiData, setApiData] = useState('')
 
   const loadItems = async () => {
     const querySnapshot = await getDocs(collection(db, "items"))
@@ -38,7 +39,20 @@ function Facts() {
     loadItems()
   }
 
+  const fetchDogImage = async () => {
+    try {
+      const response = await
+      fetch('https://dog.ceo/api/breeds/image/reandom')
+      const data = await response.json()
+      setApiData(data.message)
+    }
+    catch (error) {
+      console.error('Error fetching data:', error)
+    }
+  }
+
   return ( 
+    
     <div style={{ padding: "2rem", maxWidth: "600px", margin: "0 auto"}}>
       <h2>Shark Species Game</h2>
       <div>
@@ -62,6 +76,8 @@ function Facts() {
       )
       }
 
+      <button onClick={fetchDogImage}>Fetch Dog Image</button>
+      {apiData && <img src={apiData} alt="Random Dog" />}
     </div>
   ) 
 }
