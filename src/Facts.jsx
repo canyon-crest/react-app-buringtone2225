@@ -42,7 +42,7 @@ function Facts() {
   const fetchDogImage = async () => {
     try {
       const response = await
-      fetch('https://dog.ceo/api/breeds/image/reandom')
+      fetch('https://dog.ceo/api/breeds/image/random')
       const data = await response.json()
       setApiData(data.message)
     }
@@ -52,7 +52,6 @@ function Facts() {
   }
 
   return ( 
-    
     <div style={{ padding: "2rem", maxWidth: "600px", margin: "0 auto"}}>
       <h2>Shark Species Game</h2>
       <div>
